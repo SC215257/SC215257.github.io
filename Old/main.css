@@ -1,0 +1,149 @@
+.nav {
+    background-color: #333;
+}
+
+.nav ul {
+    margin-top: -10px;
+    margin-bottom: 0px;
+    
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.nav a:hover {
+    background-color: rgb(30, 16, 188);
+}
+
+.main-header {
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.about {
+    font-size: large;
+}
+.quote {
+    text-transform: uppercase;
+    text-align: center;
+}
+.about h1 {
+    font-size: x-large;
+}
+
+.content {
+    border-collapse: collapse;  
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #89cff0;
+}
+
+.content thead tr {
+    background-color: #89cff0;
+    font-weight: bold;
+}
+
+.content th,
+.content td {
+    border-left: solid 1px #89cff0;
+    border-bottom: solid 1px #89cff0;
+    padding: 12px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content tbody tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+.images td img {
+    border-left: 130px solid white;
+    width: 150px;
+    height: 100px;
+}
+
+.Price td {
+    text-align: center;
+}
+
+.contact {
+    margin-left: 25%;
+    margin-right: 0px;
+    text-align: center;
+    min-height: 100vh;
+    display: grid;  
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+}
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #89cff0;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form form .btn {
+    display: inline;
+    background: #ff0000;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid black;
+}
+
+.con .main-text {
+    z-index: 2;
+    margin-bottom: 50px;
+  }
+  .con .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    color:black;
+    margin: 0px 0px 45px;
+  }
+  
+  .con .main-text h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+  }
+  .con .main-text p{
+    max-width: 100%;
+    width: 480px;
+    color: black;
+  }
+  
+  .game-images {
+    position: fixed;
+    width: 90%;
+    text-align: right;
+  }

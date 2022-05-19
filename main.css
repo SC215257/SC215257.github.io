@@ -91,6 +91,9 @@ a:hover span:nth-child(4) {
     transition-delay: 0.75s;
 }
 
+
+
+
 .title1 {
     font-size: 6em;
     font-weight: 500;
@@ -124,3 +127,4 @@ a:hover span:nth-child(4) {
                  0 0 120px #fff,
                  0 0 160px #fff;
 }
+

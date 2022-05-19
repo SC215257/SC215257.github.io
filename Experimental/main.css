@@ -6,9 +6,9 @@
   text-decoration: none;
   font-family: 'Radio Canada', sans-serif;
 }
-/* body{
-  background-color: #32312f;
-} */
+body{
+  background-color: #c3a9ff;
+}
 
 .nav-mobile #nav-links {
   display: none;
@@ -200,7 +200,6 @@ a{
   width: 100%;
   margin-top: 1em;
   resize: none;
-  background-color: grey;
   }
 
 .input-message {
@@ -262,18 +261,8 @@ iframe {
 }
 
 .game-images {
-  position: fixed;
   width: 90%;
   text-align: right;
-}
-
-
-footer {
-  background-color: #585858;
-  padding-left: 24%;
-  border-radius: 12px;
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
 
 .icons {
@@ -367,31 +356,6 @@ footer {
   width: 25%;
 }
 
-.footer {
-  margin-top: 30vh;
-  position: flex;
-  left: 0;
-  bottom: 0;
-  background-color: white;
-  text-align: right;
-  font-size: 100px;
-}
-
-.footer ul {
-  display: inline;
-}
-
-.footer.bi {
-  display: inline;
-  color: black;
-  text-decoration: none;
-}
-
-.footer link{
-  text-align: center;
-  text-decoration: none;
-}
-
 .table-container {
   padding: 0 10%;
   padding-top: 5%;
@@ -411,13 +375,12 @@ footer {
 }
 
 .table thead {
-  background-color: #89cff0;
+  background-color: #de8ad7;
 }
 
 
 .table thead tr th {
   font-size: 14px;
-  font-weight: medium;
   letter-spacing: 0.35px;
   color:#ffffff;
   opacity: 1;
@@ -472,4 +435,35 @@ footer {
       font-size: 14px;
       text-align: left;
   }
+}
+
+.socials {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 250px;
+}
+
+.socials a {
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #de8ad7;
+  margin: 10px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.socials a:hover {
+  border: 2px solid #ff00ea;
+}
+
+.socials p {
+  color: #ff0000;
+  font-style: italic;
+  font-weight: bold;
 }

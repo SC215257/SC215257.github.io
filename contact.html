@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" href="./Images/BC Games logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+
+  <title>Contact US | BC Games</title>
+</head>
+<body>
+  <div class="nav-container hide-mobile">
+    <nav>
+      <ul>
+        <li><a style="pointer-events: none;" class="pic">
+          <img src="./Images/BC Games logo.png">
+          <span class="nav-con">BC Games</span>
+        </a></li>
+        <li><a class="links" href="./index.html">
+          <i class="bi bi-house-fill"></i>
+          <span class="nav-con">Home</span>
+        </a></li>
+        <li><a class="links" href="./products.html">
+          <i class="bi bi-journals"></i>
+          <span class="nav-con">Products</span>
+        </a></li>
+        <li><a class="links" href="./games.html">
+          <i class="bi bi-controller"></i>
+          <span class="nav-con">Game</span>
+        </a></li>
+        <li><a class="links" href="./meettheteam.html">
+          <i class="bi bi-person-fill"></i>
+          <span class="nav-con">Meet The Team</span>
+        </a></li>
+        <li><a class="links" href="./contact.html">
+          <i class="active bi bi-megaphone-fill"></i>
+          <span class="nav-con">Contact Us</span>
+        </a></li>
+      </ul>
+    </nav>
+    </div>
+
+    <div class="nav-mobile hide-desktop">
+      <a href="#" id="hamburger-icon" class="icon" onclick="toggleMenu()">
+        <i class="bi bi-list"></i>
+      </a>
+      <div id="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./products.html">Products</a>
+        <a href="./games.html">Game</a>
+        <a href="./meettheteam.html">Meet The Team</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+  
+    </div>
+
+
+    <h1 class="heading">Contact Us</h1>
+
+    <form class="contact-form" action="mailto:SC215257@bexhillcollege.ac.uk"
+    method="POST"
+    enctype="multipart/form-data"
+    name="EmailForm"
+    >
+      <div class="input-container">
+        
+        <input type="text" class="input-name" id="input-name" placeholder="Name" required>
+        <input type="email" class="input-email" id="input-email" placeholder="Email address" required>
+      </div>
+      <div class="input-container">
+        <textarea name="message" type="text" class="input-message" id="input-message" placeholder="Message" required></textarea>
+      </div>  
+      <input type="submit" class="btn" value="Submit" id="input-submit">
+    </form>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.321782966063!2d0.4951440159067979!3d50.8437252668298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df0e2830e5917f%3A0x69845c7f39f65c9c!2s6%20Brett%20Dr%2C%20Bexhill-on-Sea%20TN40%202JP!5e0!3m2!1sen!2suk!4v1651148690908!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2suk!4v1651148809025!5m2!1sen!2suk!6m8!1m7!1s1RzetksnDLUaiN-wauRE-Q!2m2!1d50.84376355680924!2d0.4979534659788835!3f276.5506493121917!4f-0.16174124290259329!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  <div class="socials">
+    <a href="https://twitter.com/BexhillCollege"><i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://www.facebook.com/bexhill6thformcollege"><i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com//bexhillcollege/"><i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/user/bexhillcollege/videos"><i class="bi bi-youtube"></i>
+    </a>
+
+    <p>
+      Contact Information:<br><br>
+      6 Brett Drive (A259)<br>
+      Bexhill-on-Sea<br>
+      TN40 2JP<br>
+      01424 233666<br>
+      BCgames@hotmail.co.uk<br>
+    </p>
+
+  </div>
+
+  <script>
+    function toggleMenu()
+    {
+      switch(document.getElementById('nav-links').style.display)
+      {
+        case 'none':
+          document.getElementById('nav-links').style.display = "block"
+          break;
+        case 'block':
+          document.getElementById('nav-links').style.display = "none";
+          break;
+        default:
+          document.getElementById('nav-links').style.display = "block"
+          break;
+      }
+    }
+  </script>
+</body>
+</html>
